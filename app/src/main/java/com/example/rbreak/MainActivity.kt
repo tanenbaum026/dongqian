@@ -236,8 +236,8 @@ class MainActivity : AppCompatActivity(){
         Thread{
 
             val JDBC_DRIVER = "com.mysql.jdbc.Driver"
-            val DB_URL = "jdbc:mysql://46.17.42.200:3306/hangqing?user=root&password=030906zxy&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true"
-
+            val DB_URL = "jdbc:mysql://46.17.42.200:3306/hangqing?user=username&password= &useUnicode=true&characterEncoding=UTF-8&autoReconnect=true"
+            //用户名和密码必须自己指定
             try {
                 Class.forName(JDBC_DRIVER)
                 val conn= DriverManager.getConnection(DB_URL)
