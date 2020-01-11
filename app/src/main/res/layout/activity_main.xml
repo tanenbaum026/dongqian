@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt_hangqing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="以下为合约行情信息："
+        />
+
+    <TextView
+        android:id="@+id/txt_open1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_hangqing"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="开盘价"
+        />
+
+    <TextView
+        android:id="@+id/txt_open2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_open1"
+        android:layout_marginStart="40sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_highest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_hangqing"
+        android:layout_marginStart="150sp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="最高价"
+        />
+
+    <TextView
+        android:id="@+id/txt_highest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_highest1"
+        android:layout_marginStart="160sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_lowest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_hangqing"
+        android:layout_marginStart="275sp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="最低价"
+        />
+
+    <TextView
+        android:id="@+id/txt_lowest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_lowest1"
+        android:layout_alignStart="@+id/txt_lowest1"
+        android:layout_marginLeft="10sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_close1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_open2"
+        android:layout_alignStart="@+id/txt_open1"
+        android:textSize="15sp"
+        android:text="收盘价"
+        />
+
+    <TextView
+        android:id="@+id/txt_close2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_close1"
+        android:layout_alignStart="@+id/txt_open2"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_last1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_highest2"
+        android:layout_alignStart="@+id/txt_highest1"
+        android:textSize="15sp"
+        android:text="最新价"
+        />
+
+    <TextView
+        android:id="@+id/txt_last2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_last1"
+        android:layout_alignStart="@+id/txt_highest2"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_volumn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_lowest2"
+        android:layout_alignStart="@+id/txt_lowest1"
+        android:textSize="15sp"
+        android:text="成交量"
+        />
+
+    <TextView
+        android:id="@+id/txt_volumn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_volumn1"
+        android:layout_alignStart="@+id/txt_lowest2"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+    <TextView
+        android:id="@+id/txt_openinterest1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_close2"
+        android:layout_alignStart="@+id/txt_close1"
+        android:textSize="15sp"
+        android:text="持仓量"
+        />
+
+    <TextView
+        android:id="@+id/txt_openinterest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_openinterest1"
+        android:layout_alignStart="@+id/txt_close2"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_chengjiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_openinterest2"
+        android:layout_alignStart="@+id/txt_hangqing"
+        android:textSize="15sp"
+        android:text="以下为成交状况："/>
+
+    <TextView
+        android:id="@+id/txt_instruname1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_chengjiao"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="合约名称"
+        />
+    <TextView
+        android:id="@+id/txt_instruname2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_instruname1"
+        android:layout_alignStart="@+id/txt_instruname1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+
+
+    <TextView
+        android:id="@+id/txt_direction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_chengjiao"
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="开仓方向"
+        />
+    <TextView
+        android:id="@+id/txt_direction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_direction1"
+        android:layout_alignStart="@+id/txt_direction1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+
+
+    <TextView
+        android:id="@+id/txt_direvolumn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_chengjiao"
+        android:layout_marginStart="260sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="开仓数量"
+        />
+
+    <TextView
+        android:id="@+id/txt_direvolumn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_direvolumn1"
+        android:layout_alignStart="@+id/txt_direvolumn1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_openprice1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_instruname2"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="开仓价格"/>
+    <TextView
+        android:id="@+id/txt_openprice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_openprice1"
+        android:layout_alignStart="@+id/txt_openprice1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_kuiying1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txt_direction2"
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="亏盈数"
+        />
+    <TextView
+        android:id="@+id/txt_kuiying2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_kuiying1"
+        android:layout_alignStart="@+id/txt_kuiying1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_zhibiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_openprice2"
+        android:layout_alignStart="@+id/txt_hangqing"
+        android:textSize="15sp"
+        android:text="以下为开仓指标："/>
+
+    <TextView
+        android:id="@+id/txt_dongqianup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_zhibiao"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="唐奇安上轨"/>
+    <TextView
+        android:id="@+id/txt_dongqiandown1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_zhibiao"
+        android:layout_marginLeft="140sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="唐奇安下轨"/>
+    <TextView
+        android:id="@+id/txt_zhisun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_zhibiao"
+        android:layout_marginLeft="265sp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:text="止损价"/>
+
+    <TextView
+        android:id="@+id/txt_dongqianup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_dongqianup1"
+        android:layout_alignStart="@+id/txt_dongqianup1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+
+    <TextView
+        android:id="@+id/txt_dongqiandown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_dongqiandown1"
+        android:layout_alignStart="@+id/txt_dongqiandown1"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+    <TextView
+        android:id="@+id/txt_zhisun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_zhisun1"
+        android:layout_alignStart="@+id/txt_zhisun1"
+        android:layout_marginLeft="10sp"
+        android:textSize="15sp"
+        android:text="test1"
+        />
+    <Button
+        android:id="@+id/butt_hangqing"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_zhisun2"
+        android:layout_alignLeft="@+id/txt_dongqianup1"
+        android:layout_marginTop="15dp"
+        android:text="读行情"
+        />
+    <Button
+        android:id="@+id/butt_buy"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_zhisun2"
+        android:layout_toRightOf ="@+id/butt_hangqing"
+        android:layout_marginTop="15dp"
+        android:text="开多单"
+        />
+
+    <Button
+        android:id="@+id/butt_sell"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butt_hangqing"
+        android:layout_alignLeft="@+id/butt_hangqing"
+        android:layout_marginTop="15dp"
+        android:text="开空单" />
+
+    <Button
+        android:id="@+id/butt_close"
+        android:layout_width="160sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butt_buy"
+        android:layout_toRightOf ="@+id/butt_sell"
+        android:layout_marginTop="15dp"
+        android:text="平仓" />
+
+    <Button
+        android:id="@+id/butt_quit"
+        android:layout_width="318sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/butt_close"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/butt_sell"
+        android:text="退出" />
+
+
+</RelativeLayout>
